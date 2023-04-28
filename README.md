@@ -25,12 +25,7 @@ The easiest (and recommended) way to get started for local development with Cond
 
 Run `create-project` to create a new local Conduit project in the `HelloWorld` directory:
 ```shell
-composer create-project loft39/conduit HelloWorld
-```
-If you want to run the latest test version, specify the `dev-master` version:
-
-```shell
-composer create-project loft39/conduit HelloWorld dev-master
+composer create-project loft39/conduit-project HelloWorld
 ```
 
 This will clone the repo and run `composer install` automatically. It'll then run the `ddev config` wizard to set up
@@ -41,7 +36,3 @@ enter until you see `Configuration complete.`, then move to the project director
 cd HelloWorld
 ddev start
 ```
-
-***
-
-For more info on how 
