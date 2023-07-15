@@ -17,9 +17,11 @@
     },
     "scripts": {
         "post-create-project-cmd": "ddev config",
-        "conduit-object-create": "Conduit\\Admin\\ObjectManager::create"
+        "conduit-object-create": "Conduit\\Admin\\ObjectManager::create",
+        "conduit-user-db-init": "Conduit\\Admin\\UserManager::init"
     },
     "scripts-descriptions": {
-        "conduit-object-create": "Conduit: Creates a new object. Scaffolds an 'obj_*' table in your database and generates an object class."
+        "conduit-object-create": "Conduit: Creates a new object. Scaffolds an 'obj_*' table in your database and generates an object class.",
+        "conduit-user-db-init": "Conduit: Initialises the DB tables for Conduit's optional user functions."
     }
 }
