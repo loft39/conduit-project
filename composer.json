@@ -3,7 +3,7 @@
     "type": "project",
     "description": "Barebones project for the Conduit PHP framework.",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Charlie Wilson",
